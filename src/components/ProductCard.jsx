@@ -1,22 +1,8 @@
 import React from 'react';
 import {  useDispatch, useSelector } from 'react-redux';
-
-import {
-    MDBCard,
-    MDBCardBody,
-    MDBCardTitle,
-    MDBCardText,
-    MDBCardImage,
-    MDBBtn,
-    MDBRow,
-    MDBCol,
-    MDBContainer
-} from 'mdb-react-ui-kit';
+import {MDBCard,MDBCardBody,MDBCardTitle,MDBCardText,MDBCardImage,MDBBtn,MDBRow,MDBCol,MDBContainer} from 'mdb-react-ui-kit';
 import {addcart}   from '../features/Slice';
-
 export default function App() {
-   
-
 const cart = useSelector((state) => state.allcarts.items)
 console.log(cart)
 const  dispatch = useDispatch();

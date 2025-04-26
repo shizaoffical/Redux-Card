@@ -1,11 +1,5 @@
 import React, { useEffect } from 'react';
-import {
-    MDBContainer,
-    MDBNavbar,
-    MDBNavbarBrand,
-    MDBBtn,
-    // MDBInputGroup
-} from 'mdb-react-ui-kit';
+import {MDBContainer,MDBNavbar,MDBNavbarBrand,MDBBtn,} from 'mdb-react-ui-kit';
 import {Link} from "react-router-dom"
 import { useDispatch, useSelector } from 'react-redux';
 import {getCartTotal} from "../features/Slice"
